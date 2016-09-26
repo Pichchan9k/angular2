@@ -1,0 +1,10 @@
+<pre>{{selectedUser | json}}</pre>
+  <h2>Editor</h2>
+  <div>
+    <input type='text' [(ngModel)]='selectedUser.name' />
+    <input type='number' [(ngModel)]='selectedUser.age' />
+    <input type='weight' [(ngModel)]='selectedUser.weight' />
+    <input type='height' [(ngModel)]='selectedUser.height' />
+    <button (click)='checkAge()'>Check Age</button>
+    <button (click)='checkHelth()'>Cheack Helth</button>
+  </div>
